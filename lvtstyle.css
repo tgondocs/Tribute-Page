@@ -1,0 +1,110 @@
+body {
+	font-family: "Times New Roman", serif;
+	text-align: center;
+	background-color: white;
+}
+
+#main {
+	padding: 0px 8px 8px 8px;
+	margin: 0 0 10px 0;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+#img-div {
+	background-color: rgb(20, 20, 20);
+	padding: 0,3em;
+	border-radius: 5px;
+	margin: auto;
+}
+
+#title {
+	padding-top: 1em;
+}
+
+#image {
+		max-width: 70%;
+		display: block;
+		height: auto;
+		margin: auto;
+	}
+
+#img-caption {
+	font-style: italic;
+	padding-bottom: 0.3em;
+	}
+	
+#filmography {
+	text-decoration: underline;
+}
+	
+#list {
+	list-style-type: square;
+	display: inline-block;
+}
+
+.movies {
+	display: inline-block;
+	list-style-position: outside;
+	text-align: left;
+}
+
+li {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+q {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#plast {
+	font-style: italic;
+	font-size: 1.25em;
+	}
+
+#plink {
+		font-size: 1.1em;
+	}
+	
+a:link {
+	color: white;
+	background-color: black;
+}
+	
+a:visited {
+	color: lightblue;
+	background-color: black;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+}
+
+a:active {
+	color: red;
+	background-color: black;
+}
+	
+footer {
+	box-sizing: border-box;
+	margin: auto;
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+address {
+	padding: 5px;
+	color: black;
+	background-color: white;
+	letter-spacing: 1px;
+	display: inline-block;
+	border: black solid 1px;
+}
+span {
+	height: 14px;
+}
