@@ -1,3 +1,8 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	font-family: "Times New Roman", serif;
 	text-align: center;
@@ -5,8 +10,8 @@ body {
 }
 
 #main {
-	padding: 0px 8px 8px 8px;
-	margin: 0 0 10px 0;
+	padding: 0 8px 8px 8px;
+	margin: 8px 8px 8px 10px;
 	background-color: black;
 	color: white;
 	border-radius: 5px;
@@ -23,6 +28,11 @@ body {
 	padding-top: 1em;
 }
 
+#tribute-info {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
 #image {
 		max-width: 70%;
 		display: block;
@@ -33,10 +43,13 @@ body {
 #img-caption {
 	font-style: italic;
 	padding-bottom: 0.3em;
+	padding: 10px 0 20px 0;
 	}
 	
 #filmography {
 	text-decoration: underline;
+	margin-top: 30px;
+	margin-bottom: 25px;
 }
 	
 #list {
@@ -55,6 +68,11 @@ li {
 	line-height: 1.5;
 }
 
+#blockquote {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 q {
 	font-style: italic;
 	font-weight: bold;
@@ -62,11 +80,13 @@ q {
 }
 #plast {
 	font-style: italic;
-	font-size: 1.25em;
+	font-size: 24px;
+	margin-bottom: 30px;
 	}
 
 #plink {
-		font-size: 1.1em;
+		font-size: 18px;
+		margin-bottom: 20px;
 	}
 	
 a:link {
@@ -94,7 +114,7 @@ footer {
 	margin: auto;
 	background-color: black;
 	border-radius: 5px;
-	margin-bottom: 5px;
+	margin: 5px 8px 8px 8px;
 }
 
 address {
